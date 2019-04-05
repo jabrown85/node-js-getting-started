@@ -6,6 +6,6 @@
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs",
   "scripts": {
-    "postdeploy": "echo 'hello'"
+    "postdeploy": "echo 'hello';exit 1"
   }
 }
