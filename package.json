@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "node test.js",
-    "build": "git status"
+    "build": "ls -al /workspace && git status"
   },
   "dependencies": {
     "ejs": "^3.1.9",
